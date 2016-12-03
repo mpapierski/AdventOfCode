@@ -1,7 +1,5 @@
 #include <array>
 #include <iostream>
-#include <tuple>
-#include <vector>
 
 constexpr bool isTriangle(int a, int b, int c) {
   return a + b > c && a + c > b && b + c > a;
