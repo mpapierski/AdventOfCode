@@ -12,7 +12,7 @@ int main() {
     }
   }
   for (int i = 0; i < 8; i++) {
-    std::multimap<int, char, std::less<int>> m;
+    std::multimap<int, char, std::greater<int>> m;
     for (auto it : count[i]) {
       m.insert(std::make_pair(it.second, it.first));
     }
